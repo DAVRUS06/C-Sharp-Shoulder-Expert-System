@@ -1,0 +1,83 @@
+{
+  "numberofrules": 11,
+  "systemname": "Shoulder Problems Expert System",
+  "rules": [
+    {
+      "ruleid": 1,
+      "nextruleid": 2,
+      "question": "Did you hit, injure or fall on your upper arm or shoulder recently?",
+      "diagnosis": "Your SHOULDER may be or may have been DISLOCATED.",
+      "selfcare": "See your doctor right away."
+    },
+    {
+      "ruleid": 2,
+      "nextruleid": 3,
+      "question": "Is your upper arm swollen or misshaped?",
+      "diagnosis": "Your HUMERUS (upper arm bone) may be FRACTURED.",
+      "selfcare": "EMERGENCY Call your doctor or go to the emergency room right away."
+    },
+    {
+      "ruleid": 3,
+      "nextruleid": 4,
+      "question": "Is your collarbone tender, or do you have a bump on it?",
+      "diagnosis": "Your CLAVICLE (collerbone) maay be FRACTURED.",
+      "selfcare": "Call your doctor right away. Use a sling to restrict movement of your arm and use an analgesic, such as acetaminophen or ibuprofen, to relieve pain until you see your doctor."
+    },
+    {
+      "ruleid": 4,
+      "nextruleid": 5,
+      "question": "Is there tenderness or pain near the shoulder end of your collarbone, and does lifting your arm with your uninjured arm help the pain?",
+      "diagnosis": "Your SHOULDER may be SEPARATED.",
+      "selfcare": "Call your doctor right away. Use a sling to restrict movement of your arm and use an analgesic, such as acetaminophen or ibuprofen, to relieve pain until you see your doctor."
+    },
+    {
+      "ruleid": 5,
+      "nextruleid": 6,
+      "question": "Does pain come with a twisting motion of your arm, or does a throwing motion cause pain and does your shoulder seem weak?",
+      "diagnosis": "You may have a TORN ROTATOR CUFF or SHOULDER INSTABILITY",
+      "selfcare": "See your doctor."
+    },
+    {
+      "ruleid": 6,
+      "nextruleid": 7,
+      "question": "Do you have redness or swelling around your shoulder?",
+      "diagnosis": "You may have INFLAMMATION in or around a joint, also called BURSITIS, or a serious INFECTION of the bone, the joint or the skin.",
+      "selfcare": "URGENT See your doctor right away."
+    },
+    {
+      "ruleid": 7,
+      "nextruleid": 8,
+      "question": "Within the last month have you had a sore through or a skin rash",
+      "diagnosis": "These symptoms may be from RHEUMATIC FEVER.",
+      "selfcare": "URGENT See your doctor right away."
+    },
+    {
+      "ruleid": 8,
+      "nextruleid": 9,
+      "question": "Do you have redness and swellinig in more than one joint, including your shoulder?",
+      "diagnosis": "You may have RHEUMATOID ARTHRITIS a disease affecting the immune system, or GOUT, an inflammation of the shoulder joint.",
+      "selfcare": "See your doctor. Apply heat to the affected area and take an anti-inflammatory medicine, such as ibuprofen, for pain."
+    },
+    {
+      "ruleid": 9,
+      "nextruleid": 10,
+      "question": "Do you feel pain when you move your shoulder but there's no swelling or redness?",
+      "diagnosis": "You may have BURSITIS or ROTATOR CUFF SYNDROME",
+      "selfcare": "Use an anti-inflammatory medicine, such as ibuprofen, and apply heat to the affected area. If your symptoms do not improve, see your doctor."
+    },
+    {
+      "ruleid": 10,
+      "nextruleid": 11,
+      "question": "Do you have increasing stiffness and inability to move your shoulder?",
+      "diagnosis": "You may have ADHESIVE CAPSULITIS, also called a FROZEN SHOULDER.",
+      "selfcare": "See your doctor. This condition is usually treated with special exercises your can do on your own."
+    },
+    {
+      "ruleid": 11,
+      "nextruleid": -1,
+      "question": "This expert system has run out of questions. Seek medical attention if problem persist.",
+      "diagnosis": "For more information, please talk to your doctor. If you think the problem is serious, call your doctor right away.",
+      "selfcare": "For more information, please talk to your doctor. If you think the problem is serious, call your doctor right away."
+    }
+  ]
+}
